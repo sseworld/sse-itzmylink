@@ -4,11 +4,11 @@ import { getStorage } from 'firebase/storage';
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: process.env.NEXT_API_KEY,
-  authDomain: process.env.NEXT_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PROJECT_ID,
-  storageBucket: process.env.NEXT_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_MESSAGEING_SENDER,
-  appId: process.env.NET_APP_ID,
+  authDomain: "sse-world.firebaseapp.com",
+  projectId: "sse-world",
+  storageBucket: "sse-world.appspot.com",
+  messagingSenderId: "862129086688",
+  appId: "1:862129086688:web:82b2b6ce69aba476943085",
 };
 
 const app = initializeApp(firebaseConfig);
